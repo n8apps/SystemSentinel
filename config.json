@@ -1,0 +1,19 @@
+﻿{
+    "AppName": "System Sentinel",
+    "AppWindowSize": { "Width": 850, "Height": 600, "RowWidth": 800 },
+    "BgImage": { "Display": false, "Path": "images\\darth.png", "Comment": "Background image path relative to script folder" },
+    "Theme": "light",
+    "Chart": { "Color": "DodgerBlue", "Comment": "Use named color FF2500 DodgerBlue or #RRGGBB/#AARRGGBB" },
+    "Font": { "Color": "#000000", "DefaultSize": 10, "Comment": "Use named color or #RRGGBB/#AARRGGBB" },
+    "Header": { "Display": false, "Text": "System Sentinel - Esc/Ctrl+Q exit - F11 fullscreen" },
+    "Spacing": { "Row": 16, "Column": 16 },
+    "Row1Comment": "Row 1 includes CPU and GPU",
+    "CpuBox": { "WidthPx": 392, "HeightPx": 160 },
+    "GpuBox": { "WidthPx": 392, "HeightPx": 160 },
+    "Row2Comment": "Row 2 includes RAM, Network, and Storage",
+    "RamBox": { "WidthPx": 256, "HeightPx": 170 },
+    "NetworkBox": { "WidthPx": 256, "HeightPx": 170, "FontSize": 24, "TopOffsetPx": 40, "LineSpacingPx": 55, "TextWidthPx": 220},
+    "StorageBox": { "WidthPx": 256, "HeightPx": 170 },
+    "Row3Comment": "Row 3 includes Top Processes",
+    "TopProcessesBox": { "WidthPx": 800, "HeightPx": 160 }
+}
